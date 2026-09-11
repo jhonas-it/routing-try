@@ -5,7 +5,7 @@ import "./Home.css";
 
 const Home = () => {
   const [recipes, setRecipes] = useState([]);
-
+  const [recipeName, setRecipeName] = useState("");
   useEffect(() => {
     async function fetchRecipes() {
       try {
@@ -19,6 +19,7 @@ const Home = () => {
     fetchRecipes();
   }, []);
 
+  const searchRecipe = recipes.filter((recipe) => {return recipe.title.toLowerCase().includes(recipeName.toLowerCase())});
   return (
     <>
       <Helmet>
@@ -28,8 +29,11 @@ const Home = () => {
         <h2>Lola's Kitchen</h2>
         <p>Classic Filipino recipes, mapped straight from the cookbook</p>
       </div>
+      <div className="search-bar">
+        <input type="text" onChange= {(e)=> setRecipeName(e.target.value)}/>
+      </div>
       <div className="container">
-        {recipes.map((recipe) => (
+        {searchRecipe.map((recipe) => (
           <div className="card" key={recipe.id}>
             <p className="recipe-title">{recipe.title}</p>
             <p className="recipe-category">{recipe.category}</p>
