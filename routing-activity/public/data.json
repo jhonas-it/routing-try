@@ -1,0 +1,57 @@
+{
+  "chef": {
+    "name": "Chef Profile Name Here",
+    "specialty": "Filipino Comfort Food",
+    "yearsExperience": 8,
+    "location": "Plaridel, Bulacan",
+    "bio": "Home-trained chef passionate about reviving classic Filipino dishes with a modern twist.",
+    "email": "chef@example.com"
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Chicken Adobo",
+      "category": "Main Dish",
+      "servings": 4,
+      "description": "Classic Filipino braised chicken in soy sauce, vinegar, and garlic.",
+      "timing": { "prep": "15 mins", "cook": "40 mins" },
+      "ingredients": ["1 kg chicken", "1/2 cup soy sauce", "1/4 cup vinegar", "6 cloves garlic", "3 bay leaves"]
+    },
+    {
+      "id": 2,
+      "title": "Sinigang na Baboy",
+      "category": "Soup",
+      "servings": 5,
+      "description": "Sour pork soup with tamarind broth and mixed vegetables.",
+      "timing": { "prep": "20 mins", "cook": "45 mins" },
+      "ingredients": ["1 kg pork ribs", "1 pack tamarind mix", "2 pcs radish", "1 bundle kangkong"]
+    },
+    {
+      "id": 3,
+      "title": "Pancit Canton",
+      "category": "Noodles",
+      "servings": 6,
+      "description": "Stir-fried noodles with vegetables, meat, and soy sauce.",
+      "timing": { "prep": "15 mins", "cook": "20 mins" },
+      "ingredients": ["500g canton noodles", "200g pork", "1 carrot", "1 cup cabbage"]
+    },
+    {
+      "id": 4,
+      "title": "Leche Flan",
+      "category": "Dessert",
+      "servings": 8,
+      "description": "Creamy Filipino caramel custard made with egg yolks and condensed milk.",
+      "timing": { "prep": "10 mins", "cook": "1 hour" },
+      "ingredients": ["10 egg yolks", "1 can condensed milk", "1 can evaporated milk", "1 cup sugar"]
+    },
+    {
+      "id": 5,
+      "title": "Lumpiang Shanghai",
+      "category": "Appetizer",
+      "servings": 10,
+      "description": "Crispy fried spring rolls filled with seasoned ground pork.",
+      "timing": { "prep": "30 mins", "cook": "20 mins" },
+      "ingredients": ["500g ground pork", "1 carrot", "1 onion", "20 pcs spring roll wrapper"]
+    }
+  ]
+}

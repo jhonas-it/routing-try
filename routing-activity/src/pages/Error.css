@@ -1,0 +1,21 @@
+.error-container {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.error-container p:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #7a3b12;
+  margin-bottom: 0;
+}
+
+.error-container p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.error-container p:last-child {
+  color: #666;
+}
